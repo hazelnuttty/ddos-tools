@@ -21,7 +21,6 @@ cd repository-name
 ```
 
 2. Instalasi Dependencies:
-```sh
 Pastikan Python 3 dan pip telah terinstall di perangkat Anda. Instal library yang diperlukan:
 ```sh
 pip install -r requirements.txt
