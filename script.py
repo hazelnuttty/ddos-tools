@@ -9,7 +9,7 @@ YELLOW = "\033[93m"
 RESET = "\033[0m"
 
 # Token Default
-TOKEN_DEFAULT = "raraaa"
+TOKEN_DEFAULT = "Gv8@zP#1r$Xq5wL!"
 
 # File untuk menyimpan data server
 SERVER_FILE = "servers.txt"
