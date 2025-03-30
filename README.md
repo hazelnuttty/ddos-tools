@@ -16,7 +16,7 @@ Fitur Utama:
 1. Clone Repository:
 Clone repository dengan perintah:
 ```sh
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/hazelnuttty/ddos-tools.git
 cd repository-name
 ```
 
