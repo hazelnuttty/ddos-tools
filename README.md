@@ -1,30 +1,17 @@
-Pentest Tool - Deskripsi
+## Pentest Tool
 
 Pentest Tool adalah alat yang dirancang untuk melakukan uji penetrasi (pentesting) pada server target. Dengan menggunakan alat ini, pengguna dapat menyesuaikan berbagai parameter serangan, seperti URL target, jumlah serangan, dan interval delay antara setiap permintaan. Tool ini memungkinkan pengguna untuk menambah, mengonfigurasi, dan memonitor server yang sedang diserang, serta menyimpan daftar server yang dapat digunakan di masa depan.
 
 Fitur Utama:
 
 - Login dengan Token: Pengguna harus memasukkan token valid untuk mengakses alat ini.
+- Menambahkan Server: Pengguna dapat menambahkan URL server target untuk diserang.
+- Mengonfigurasi Serangan: Alat ini memungkinkan pengaturan URL target, jumlah serangan, dan delay antar permintaan.
+- Memulai dan Menghentikan Serangan: Pengguna dapat menjalankan dan menghentikan serangan pada server yang dipilih.
+- Monitoring Server: Memantau status server yang sedang diserang untuk melihat apakah server tersebut masih aktif atau   mengalami gangguan.
+- Menyimpan Daftar Server: Menyimpan URL server yang telah diserang atau yang ingin diserang kembali di masa depan.
 
-Menambahkan Server: Pengguna dapat menambahkan URL server target untuk diserang.
-
-Mengonfigurasi Serangan: Alat ini memungkinkan pengaturan URL target, jumlah serangan, dan delay antar permintaan.
-
-Memulai dan Menghentikan Serangan: Pengguna dapat menjalankan dan menghentikan serangan pada server yang dipilih.
-
-Monitoring Server: Memantau status server yang sedang diserang untuk melihat apakah server tersebut masih aktif atau mengalami gangguan.
-
-Menyimpan Daftar Server: Menyimpan URL server yang telah diserang atau yang ingin diserang kembali di masa depan.
-
-
-Prasyarat:
-
-Python 3.x
-
-Library requests
-
-
-Cara Instalasi:
+#  Cara Instalasi:
 
 1. Clone Repository:
 Clone repository dengan perintah:
@@ -46,6 +33,14 @@ pip install requests
 
 3. Jalankan Script:
 Untuk menjalankan Pentest Tool, gunakan perintah: python pentest_tool.py
+
+---
+
+## Server
+Kami telah menyediakan server langsung yang terhubung dengan ddos-tools, Kalian bisa coba menginstall nya.
+```sh
+git clone https://github.com/hazelnuttty/server-independen.git
+```
 
 ---
 ## Cara Penggunaan
